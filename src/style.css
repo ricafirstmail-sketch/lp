@@ -1,0 +1,67 @@
+:root{
+    --text : #ffff;
+    --bg: #0511723;
+    --lpurple: #560BAD;
+    --lpink:#F72585;
+    --lpurple-light:#3A0CA3;
+    --dpurple:#3F37C9;
+    --rpinklemonade:#ff0054;
+    --lblue:#4cc9f0;
+    --font:"Roboto", sans-serif;
+
+
+
+}
+ body{
+    font-family: var(--font);
+    background-color: var(--bg);
+    color: var(--text);
+ }
+
+ nav{
+    width: 100%;
+    padding: fixed;
+    top: 0;
+    background-color:  var(--lpurple);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2vw;
+    height: 100px;
+    z-index: 999;
+    animation:  decima 1s ease-out;
+    transition: all 1s ease-out;
+
+
+ }
+ nav.sc{
+    background-color: var(--lpink);
+ }
+
+ @keyframes decima{
+    0%{
+        transform: translateY(-100px);
+    
+    }
+    
+ }
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    min-height: 100vh;
+    height: auto;
+}
+
+
+
+
+
+
+
